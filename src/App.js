@@ -2,6 +2,7 @@ import './App.css';
 
 import BlogPage from './_pages/BlogPage';
 import BottomNav from './_components/BottomNav';
+import { Button } from 'antd';
 import ContactPage from './_pages/ContactPage';
 import PageTitle from './_components/PageTitle';
 import styled from 'styled-components';
@@ -21,6 +22,7 @@ function App() {
     <AppContent className='App'>
       <Page className='homePage'>
         <PageTitle title='Home Page' />
+        <Button type='primary'>Button</Button>
       </Page>
       <Page className='aboutPage'>
         <PageTitle title='About Page' />
