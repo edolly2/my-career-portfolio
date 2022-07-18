@@ -1,0 +1,28 @@
+.homePage,
+.aboutPage,
+.portfolioPage,
+.blogPage,
+.contactPage {
+  width: 100%;
+  height: 100%;
+}
+
+.homePage {
+  background-color: aqua;
+}
+
+.aboutPage {
+  background-color: blue;
+}
+
+.portfolioPage {
+  background-color: crimson;
+}
+
+.blogPage {
+  background-color: darkgreen;
+}
+
+.contactPage {
+  background-color: tan;
+}
